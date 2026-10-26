@@ -33,5 +33,16 @@ def generate_launch_description():
                 ),
             ],
         ),
+                TimerAction(
+            period=3.0,
+            actions=[
+                Node(
+                    package='turtle_control',
+                    executable='mouse_control',
+                    name='mouse_control',
+                    output='screen',
+                ),
+            ],
+        ),
     ])
 
