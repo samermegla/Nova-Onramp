@@ -26,4 +26,4 @@ ros2 launch turtle_control Chase.launch.py
 
 ## Demo
 
-<video src="https://raw.githubusercontent.com/samermegla/Nova-Onramp/main/media/turtle-demo.mp4" controls width="600"></video>
+[Watch the demo](media/turtle-demo.mp4)
